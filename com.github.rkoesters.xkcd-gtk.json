@@ -36,99 +36,99 @@
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/RoaringBitmap/roaring",
 					"url": "https://github.com/RoaringBitmap/roaring.git",
-					"commit": "627b662e6d11b18beaff2266712a59f8845f3d35"
+					"commit": "627b662e6d11b18beaff2266712a59f8845f3d35",
+					"dest": "src/github.com/RoaringBitmap/roaring"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/blevesearch/bleve",
 					"url": "https://github.com/blevesearch/bleve.git",
-					"commit": "a99c91972458ca5ede8b5cf54b0bdefdfc2658bb"
+					"commit": "a99c91972458ca5ede8b5cf54b0bdefdfc2658bb",
+					"dest": "src/github.com/blevesearch/bleve"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/blevesearch/go-porterstemmer",
 					"url": "https://github.com/blevesearch/go-porterstemmer.git",
-					"commit": "23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e"
+					"commit": "23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e",
+					"dest": "src/github.com/blevesearch/go-porterstemmer"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/blevesearch/segment",
 					"url": "https://github.com/blevesearch/segment.git",
-					"commit": "762005e7a34fd909a84586299f1dd457371d36ee"
+					"commit": "762005e7a34fd909a84586299f1dd457371d36ee",
+					"dest": "src/github.com/blevesearch/segment"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/boltdb/bolt",
 					"url": "https://github.com/boltdb/bolt.git",
-					"commit": "fd01fc79c553a8e99d512a07e8e0c63d4a3ccfc5"
+					"commit": "fd01fc79c553a8e99d512a07e8e0c63d4a3ccfc5",
+					"dest": "src/github.com/boltdb/bolt"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/couchbase/vellum",
 					"url": "https://github.com/couchbase/vellum.git",
-					"commit": "01d5c56e609533acd717717c8acc0d2dea6bfb89"
+					"commit": "01d5c56e609533acd717717c8acc0d2dea6bfb89",
+					"dest": "src/github.com/couchbase/vellum"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/edsrzf/mmap-go",
 					"url": "https://github.com/edsrzf/mmap-go.git",
-					"commit": "0bce6a6887123b67a60366d2c9fe2dfb74289d2e"
+					"commit": "0bce6a6887123b67a60366d2c9fe2dfb74289d2e",
+					"dest": "src/github.com/edsrzf/mmap-go"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/glycerine/go-unsnap-stream",
 					"url": "https://github.com/glycerine/go-unsnap-stream.git",
-					"commit": "9f0cb55181dd3a0a4c168d3dbc72d4aca4853126"
+					"commit": "9f0cb55181dd3a0a4c168d3dbc72d4aca4853126",
+					"dest": "src/github.com/glycerine/go-unsnap-stream"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/golang/protobuf",
 					"url": "https://github.com/golang/protobuf.git",
-					"commit": "ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d"
+					"commit": "ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d",
+					"dest": "src/github.com/golang/protobuf"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/golang/snappy",
 					"url": "https://github.com/golang/snappy.git",
-					"commit": "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
+					"commit": "2e65f85255dbc3072edf28d6b5b8efc472979f5a",
+					"dest": "src/github.com/golang/snappy"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/gotk3/gotk3",
 					"url": "https://github.com/gotk3/gotk3.git",
-					"commit": "ac5a14d9e3ee26f53b88d0a99e59bf443d90e43e"
+					"commit": "ac5a14d9e3ee26f53b88d0a99e59bf443d90e43e",
+					"dest": "src/github.com/gotk3/gotk3"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/philhofer/fwd",
 					"url": "https://github.com/philhofer/fwd.git",
-					"commit": "bb6d471dc95d4fe11e432687f8b70ff496cf3136"
+					"commit": "bb6d471dc95d4fe11e432687f8b70ff496cf3136",
+					"dest": "src/github.com/philhofer/fwd"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/rkoesters/xdg",
 					"url": "https://github.com/rkoesters/xdg.git",
-					"commit": "99d0af71f6bf670bb325968486f044485299d516"
+					"commit": "99d0af71f6bf670bb325968486f044485299d516",
+					"dest": "src/github.com/rkoesters/xdg"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/rkoesters/xkcd",
 					"url": "https://github.com/rkoesters/xkcd.git",
-					"commit": "66a685620bd4e49755c0572806c4d3bbeffd666f"
+					"commit": "66a685620bd4e49755c0572806c4d3bbeffd666f",
+					"dest": "src/github.com/rkoesters/xkcd"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/steveyen/gtreap",
 					"url": "https://github.com/steveyen/gtreap.git",
-					"commit": "0abe01ef9be25c4aedc174758ec2d917314d6d70"
+					"commit": "0abe01ef9be25c4aedc174758ec2d917314d6d70",
+					"dest": "src/github.com/steveyen/gtreap"
 				},
 				{
 					"type": "git",
-					"dest": "src/github.com/tinylib/msgp",
 					"url": "https://github.com/tinylib/msgp.git",
-					"commit": "f65876d3ea05943d6613bca6b8ed391843044bd4"
+					"commit": "f65876d3ea05943d6613bca6b8ed391843044bd4",
+					"dest": "src/github.com/tinylib/msgp"
 				}
 			]
 		}
