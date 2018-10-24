@@ -18,7 +18,6 @@
 			"name": "com.github.rkoesters.xkcd-gtk",
 			"buildsystem": "simple",
 			"build-options": {
-				"strip": false,
 				"env": {
 					"GOPATH": "/nonexistent/go"
 				}
