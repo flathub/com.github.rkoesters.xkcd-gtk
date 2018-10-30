@@ -114,7 +114,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd.git",
-					"commit": "4596c556ae739df81d001929ae8aaae42335dffd",
+					"commit": "312f1e9f1cad6f0390b806ec9f2431bfd1b775ba",
 					"dest": "src/github.com/rkoesters/xkcd"
 				},
 				{
