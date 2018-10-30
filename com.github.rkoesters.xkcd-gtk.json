@@ -114,7 +114,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd.git",
-					"commit": "66a685620bd4e49755c0572806c4d3bbeffd666f",
+					"commit": "4596c556ae739df81d001929ae8aaae42335dffd",
 					"dest": "src/github.com/rkoesters/xkcd"
 				},
 				{
@@ -128,6 +128,12 @@
 					"url": "https://github.com/tinylib/msgp.git",
 					"commit": "f65876d3ea05943d6613bca6b8ed391843044bd4",
 					"dest": "src/github.com/tinylib/msgp"
+				},
+				{
+					"type": "git",
+					"url": "https://go.googlesource.com/text.git",
+					"commit": "cd89ac83aaa7444b412643e7b7e1f82dccf9c45b",
+					"dest": "src/golang.org/x/text"
 				}
 			]
 		}
