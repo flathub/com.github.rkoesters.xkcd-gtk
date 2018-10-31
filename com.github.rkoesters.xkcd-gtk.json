@@ -31,7 +31,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd-gtk.git",
-					"tag": "1.0.4"
+					"tag": "1.1.0"
 				},
 				{
 					"type": "git",
@@ -108,13 +108,13 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xdg.git",
-					"commit": "99d0af71f6bf670bb325968486f044485299d516",
+					"commit": "e83df331efde066a04b128cee9276b63a6553199",
 					"dest": "src/github.com/rkoesters/xdg"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd.git",
-					"commit": "312f1e9f1cad6f0390b806ec9f2431bfd1b775ba",
+					"commit": "250cb9a77bd62bee0376bba0d44868950a215f9d",
 					"dest": "src/github.com/rkoesters/xkcd"
 				},
 				{
