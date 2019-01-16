@@ -96,7 +96,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/gotk3/gotk3.git",
-					"commit": "ac5a14d9e3ee26f53b88d0a99e59bf443d90e43e",
+					"commit": "d09d58ef3476938a38485424f4453358d212d8f3",
 					"dest": "src/github.com/gotk3/gotk3"
 				},
 				{
