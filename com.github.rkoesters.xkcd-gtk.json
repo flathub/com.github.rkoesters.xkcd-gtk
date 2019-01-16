@@ -36,7 +36,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/RoaringBitmap/roaring.git",
-					"commit": "627b662e6d11b18beaff2266712a59f8845f3d35",
+					"tag": "v0.4.16",
 					"dest": "src/github.com/RoaringBitmap/roaring"
 				},
 				{
