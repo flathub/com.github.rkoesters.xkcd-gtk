@@ -48,7 +48,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/blevesearch/go-porterstemmer.git",
-					"commit": "23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e",
+					"tag": "v1.0.1",
 					"dest": "src/github.com/blevesearch/go-porterstemmer"
 				},
 				{
