@@ -72,7 +72,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/edsrzf/mmap-go.git",
-					"commit": "0bce6a6887123b67a60366d2c9fe2dfb74289d2e",
+					"tag": "v1.0.0",
 					"dest": "src/github.com/edsrzf/mmap-go"
 				},
 				{
