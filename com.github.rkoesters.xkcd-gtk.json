@@ -131,6 +131,12 @@
 				},
 				{
 					"type": "git",
+					"url": "https://go.googlesource.com/sys.git",
+					"commit": "11f53e03133963fb11ae0588e08b5e0b85be8be5",
+					"dest": "src/golang.org/x/sys"
+				},
+				{
+					"type": "git",
 					"url": "https://go.googlesource.com/text.git",
 					"commit": "cd89ac83aaa7444b412643e7b7e1f82dccf9c45b",
 					"dest": "src/golang.org/x/text"
