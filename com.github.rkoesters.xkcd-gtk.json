@@ -102,7 +102,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/philhofer/fwd.git",
-					"commit": "bb6d471dc95d4fe11e432687f8b70ff496cf3136",
+					"tag": "v1.0.0",
 					"dest": "src/github.com/philhofer/fwd"
 				},
 				{
