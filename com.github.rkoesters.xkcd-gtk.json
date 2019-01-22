@@ -78,7 +78,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/glycerine/go-unsnap-stream.git",
-					"commit": "9f0cb55181dd3a0a4c168d3dbc72d4aca4853126",
+					"commit": "f9677308dec2b35e76737f9713df328ad11b1fea",
 					"dest": "src/github.com/glycerine/go-unsnap-stream"
 				},
 				{
