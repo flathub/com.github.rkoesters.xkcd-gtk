@@ -36,19 +36,19 @@
 				{
 					"type": "git",
 					"url": "https://github.com/RoaringBitmap/roaring.git",
-					"tag": "v0.4.16",
+					"tag": "v0.4.17",
 					"dest": "src/github.com/RoaringBitmap/roaring"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/blevesearch/bleve.git",
-					"commit": "a99c91972458ca5ede8b5cf54b0bdefdfc2658bb",
+					"commit": "7f3a218ae72960bb4841254833a52a5f088a9928",
 					"dest": "src/github.com/blevesearch/bleve"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/blevesearch/go-porterstemmer.git",
-					"tag": "v1.0.1",
+					"tag": "v1.0.2",
 					"dest": "src/github.com/blevesearch/go-porterstemmer"
 				},
 				{
@@ -66,7 +66,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/couchbase/vellum.git",
-					"commit": "01d5c56e609533acd717717c8acc0d2dea6bfb89",
+					"commit": "462e86d8716b36a1397b30ef77fb11105065a232",
 					"dest": "src/github.com/couchbase/vellum"
 				},
 				{
@@ -77,6 +77,12 @@
 				},
 				{
 					"type": "git",
+					"url": "https://github.com/etcd-io/bbolt.git",
+					"tag": "v1.3.2",
+					"dest": "src/github.com/etcd-io/bbolt"
+				},
+				{
+					"type": "git",
 					"url": "https://github.com/glycerine/go-unsnap-stream.git",
 					"commit": "f9677308dec2b35e76737f9713df328ad11b1fea",
 					"dest": "src/github.com/glycerine/go-unsnap-stream"
@@ -84,19 +90,19 @@
 				{
 					"type": "git",
 					"url": "https://github.com/golang/protobuf.git",
-					"commit": "ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d",
+					"tag": "v1.3.1",
 					"dest": "src/github.com/golang/protobuf"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/golang/snappy.git",
-					"commit": "2e65f85255dbc3072edf28d6b5b8efc472979f5a",
+					"tag": "v0.0.1",
 					"dest": "src/github.com/golang/snappy"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/gotk3/gotk3.git",
-					"commit": "d09d58ef3476938a38485424f4453358d212d8f3",
+					"tag": "GOTK3_0_3_0",
 					"dest": "src/github.com/gotk3/gotk3"
 				},
 				{
@@ -108,7 +114,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xdg.git",
-					"commit": "b93a254d6e69d41aa7a52ca517a28966eaca2168",
+					"commit": "edd15b846f9b4f561ebcd30475b42405c665ff31",
 					"dest": "src/github.com/rkoesters/xdg"
 				},
 				{
@@ -126,7 +132,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/tinylib/msgp.git",
-					"commit": "f65876d3ea05943d6613bca6b8ed391843044bd4",
+					"tag": "v1.1.0",
 					"dest": "src/github.com/tinylib/msgp"
 				},
 				{
