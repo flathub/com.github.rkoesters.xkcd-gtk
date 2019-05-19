@@ -120,7 +120,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd.git",
-					"commit": "ef3290e482587f8d52c11e82f427ceb72998efed",
+					"tag": "v1.2",
 					"dest": "src/github.com/rkoesters/xkcd"
 				},
 				{
