@@ -31,18 +31,18 @@
 				{
 					"type": "git",
 					"url": "https://github.com/rkoesters/xkcd-gtk.git",
-					"tag": "1.3.0"
+					"tag": "1.3.1"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/RoaringBitmap/roaring.git",
-					"tag": "v0.4.17",
+					"tag": "v0.4.21",
 					"dest": "src/github.com/RoaringBitmap/roaring"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/blevesearch/bleve.git",
-					"commit": "7f3a218ae72960bb4841254833a52a5f088a9928",
+					"tag": "v0.8.1",
 					"dest": "src/github.com/blevesearch/bleve"
 				},
 				{
@@ -60,7 +60,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/couchbase/vellum.git",
-					"commit": "462e86d8716b36a1397b30ef77fb11105065a232",
+					"commit": "dc222902e86f298bfae0b3dec6ba8b9d874ad5f8",
 					"dest": "src/github.com/couchbase/vellum"
 				},
 				{
@@ -78,19 +78,19 @@
 				{
 					"type": "git",
 					"url": "https://github.com/etcd-io/bbolt.git",
-					"tag": "v1.3.2",
+					"tag": "v1.3.3",
 					"dest": "src/github.com/etcd-io/bbolt"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/glycerine/go-unsnap-stream.git",
-					"commit": "f9677308dec2b35e76737f9713df328ad11b1fea",
+					"commit": "98d31706395aaac22e29676617f2ee37bee55b5a",
 					"dest": "src/github.com/glycerine/go-unsnap-stream"
 				},
 				{
 					"type": "git",
 					"url": "https://github.com/golang/protobuf.git",
-					"tag": "v1.3.1",
+					"tag": "v1.3.2",
 					"dest": "src/github.com/golang/protobuf"
 				},
 				{
@@ -102,7 +102,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/gotk3/gotk3.git",
-					"commit": "f8b6954100e567d6c36a12d96c34aeeb749ccd7f",
+					"commit": "60cba67d4ea42a3b841c37b37d94244ecdbc9770",
 					"dest": "src/github.com/gotk3/gotk3"
 				},
 				{
@@ -138,14 +138,8 @@
 				{
 					"type": "git",
 					"url": "https://go.googlesource.com/sys.git",
-					"commit": "11f53e03133963fb11ae0588e08b5e0b85be8be5",
+					"commit": "c1f44814a5cd81a6d1cb589ef1e528bc5d305e07",
 					"dest": "src/golang.org/x/sys"
-				},
-				{
-					"type": "git",
-					"url": "https://go.googlesource.com/text.git",
-					"commit": "cd89ac83aaa7444b412643e7b7e1f82dccf9c45b",
-					"dest": "src/golang.org/x/text"
 				}
 			]
 		}
