@@ -25,7 +25,7 @@ modules:
         GOPATH: "/nonexistent/go"
 
     build-commands:
-      - ". /usr/lib/sdk/golang/enable.sh; make"
+      - ". /usr/lib/sdk/golang/enable.sh; make BUILDFLAGS=-v"
       - ". /usr/lib/sdk/golang/enable.sh; make install prefix=/app"
 
     sources:
