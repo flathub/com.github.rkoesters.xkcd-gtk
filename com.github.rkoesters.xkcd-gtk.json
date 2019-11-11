@@ -23,7 +23,6 @@
 				}
 			},
 			"build-commands": [
-				". /usr/lib/sdk/golang/enable.sh; make clean",
 				". /usr/lib/sdk/golang/enable.sh; make",
 				". /usr/lib/sdk/golang/enable.sh; make install prefix=/app"
 			],
