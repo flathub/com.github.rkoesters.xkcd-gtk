@@ -12,26 +12,23 @@ sdk-extensions:
 command: com.github.rkoesters.xkcd-gtk
 
 finish-args:
-  - "--socket=x11"
-  - "--socket=wayland"
-  - "--share=ipc"
-  - "--share=network"
+  - '--socket=x11'
+  - '--socket=wayland'
+  - '--share=ipc'
+  - '--share=network'
 
 modules:
   - name: com.github.rkoesters.xkcd-gtk
     buildsystem: simple
-    build-options:
-      env:
-        GOPATH: "/nonexistent/go"
-
     build-commands:
-      - ". /usr/lib/sdk/golang/enable.sh; make BUILDFLAGS=-v"
-      - ". /usr/lib/sdk/golang/enable.sh; make install prefix=/app"
+      - '. /usr/lib/sdk/golang/enable.sh; GOPATH="$(pwd)" make -C src/github.com/rkoesters/xkcd-gtk BUILDFLAGS=-v'
+      - '. /usr/lib/sdk/golang/enable.sh; GOPATH="$(pwd)" make -C src/github.com/rkoesters/xkcd-gtk install prefix=/app'
 
     sources:
       - type: git
         url: https://github.com/rkoesters/xkcd-gtk.git
         tag: 1.3.1
+        dest: src/github.com/rkoesters/xkcd-gtk
 
       - type: git
         url: https://github.com/RoaringBitmap/roaring.git
