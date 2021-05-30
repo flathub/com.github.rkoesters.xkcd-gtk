@@ -19,7 +19,7 @@ jobs:
       - name: Set up Go cache
         uses: actions/cache@v2
         with:
-          path: build
+          path: .flatpak-builder
           key: >
             flatpak-builder-${{
             hashFiles('com.github.rkoesters.xkcd-gtk.yaml')
