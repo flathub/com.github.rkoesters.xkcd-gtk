@@ -15,6 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
-      with:
-        manifest-path: com.github.rkoesters.xkcd-gtk.yaml
+      - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
+        with:
+          manifest-path: com.github.rkoesters.xkcd-gtk.yaml
