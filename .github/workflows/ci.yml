@@ -24,6 +24,8 @@ jobs:
             flatpak-builder-${{
             hashFiles('com.github.rkoesters.xkcd-gtk.yaml')
             }}
+          restore-keys: flatpak-builder-
+
 
       - run: >
           flatpak --user remote-add --if-not-exists
