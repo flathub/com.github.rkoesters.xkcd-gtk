@@ -3,7 +3,7 @@
 app-id: com.github.rkoesters.xkcd-gtk
 
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '21.08'
 
 sdk: org.freedesktop.Sdk
 sdk-extensions:
@@ -28,9 +28,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/rkoesters/xkcd-gtk.git
-        tag: 1.5.2
+        tag: 1.5.3
         dest: src
-
 
       - type: git
         url: https://github.com/RoaringBitmap/roaring.git
@@ -44,7 +43,7 @@ modules:
 
       - type: git
         url: https://github.com/blevesearch/bleve.git
-        tag: v2.3.0
+        tag: v2.3.2
         dest: vendor/github.com/blevesearch/bleve/v2
 
       - type: git
@@ -56,6 +55,11 @@ modules:
         url: https://github.com/blevesearch/go-porterstemmer.git
         tag: v1.0.3
         dest: vendor/github.com/blevesearch/go-porterstemmer
+
+      - type: git
+        url: https://github.com/blevesearch/gtreap.git
+        tag: v0.1.1
+        dest: vendor/github.com/blevesearch/gtreap
 
       - type: git
         url: https://github.com/blevesearch/mmap-go.git
@@ -89,32 +93,32 @@ modules:
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v11.3.2
+        tag: v11.3.3
         dest: vendor/github.com/blevesearch/zapx/v11
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v12.3.2
+        tag: v12.3.3
         dest: vendor/github.com/blevesearch/zapx/v12
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v13.3.2
+        tag: v13.3.3
         dest: vendor/github.com/blevesearch/zapx/v13
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v14.3.2
+        tag: v14.3.3
         dest: vendor/github.com/blevesearch/zapx/v14
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v15.3.2
+        tag: v15.3.3
         dest: vendor/github.com/blevesearch/zapx/v15
 
       - type: git
         url: https://github.com/emirpasic/gods.git
-        tag: v1.12.0
+        tag: v1.18.1
         dest: vendor/github.com/emirpasic/gods
 
       - type: git
@@ -141,11 +145,6 @@ modules:
         url: https://github.com/rkoesters/xkcd.git
         tag: v1.4.0
         dest: vendor/github.com/rkoesters/xkcd
-
-      - type: git
-        url: https://github.com/steveyen/gtreap.git
-        tag: v0.1.0
-        dest: vendor/github.com/steveyen/gtreap
 
       - type: git
         url: https://github.com/etcd-io/bbolt.git
