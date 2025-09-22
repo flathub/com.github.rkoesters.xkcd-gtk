@@ -3,7 +3,7 @@
 app-id: com.github.rkoesters.xkcd-gtk
 
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 
 sdk: org.freedesktop.Sdk
 sdk-extensions:
@@ -33,32 +33,32 @@ modules:
 
       - type: git
         url: https://github.com/rkoesters/xkcd-gtk.git
-        tag: v1.7.1
+        tag: v1.7.3
         dest: src
 
       - type: git
         url: https://github.com/RoaringBitmap/roaring.git
-        tag: v1.2.3
-        dest: vendor/github.com/RoaringBitmap/roaring
+        tag: v2.4.5
+        dest: vendor/github.com/RoaringBitmap/roaring/v2
 
       - type: git
         url: https://github.com/bits-and-blooms/bitset.git
-        tag: v1.2.0
+        tag: v1.22.0
         dest: vendor/github.com/bits-and-blooms/bitset
 
       - type: git
         url: https://github.com/blevesearch/bleve.git
-        tag: v2.3.10
+        tag: v2.5.3
         dest: vendor/github.com/blevesearch/bleve/v2
 
       - type: git
         url: https://github.com/blevesearch/bleve_index_api.git
-        tag: v1.0.6
+        tag: v1.2.8
         dest: vendor/github.com/blevesearch/bleve_index_api
 
       - type: git
         url: https://github.com/blevesearch/geo.git
-        tag: v0.1.18
+        tag: v0.2.4
         dest: vendor/github.com/blevesearch/geo
 
       - type: git
@@ -78,7 +78,7 @@ modules:
 
       - type: git
         url: https://github.com/blevesearch/scorch_segment_api.git
-        tag: v2.1.6
+        tag: v2.3.10
         dest: vendor/github.com/blevesearch/scorch_segment_api/v2
 
       - type: git
@@ -98,44 +98,43 @@ modules:
 
       - type: git
         url: https://github.com/blevesearch/vellum.git
-        tag: v1.0.10
+        tag: v1.1.0
         dest: vendor/github.com/blevesearch/vellum
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v11.3.10
+        tag: v11.4.2
         dest: vendor/github.com/blevesearch/zapx/v11
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v12.3.10
+        tag: v12.4.2
         dest: vendor/github.com/blevesearch/zapx/v12
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v13.3.10
+        tag: v13.4.2
         dest: vendor/github.com/blevesearch/zapx/v13
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v14.3.10
+        tag: v14.4.2
         dest: vendor/github.com/blevesearch/zapx/v14
 
       - type: git
         url: https://github.com/blevesearch/zapx.git
-        tag: v15.3.13
+        tag: v15.4.2
         dest: vendor/github.com/blevesearch/zapx/v15
+
+      - type: git
+        url: https://github.com/blevesearch/zapx.git
+        tag: v16.2.4
+        dest: vendor/github.com/blevesearch/zapx/v16
 
       - type: git
         url: https://github.com/emirpasic/gods.git
         tag: v1.18.1
         dest: vendor/github.com/emirpasic/gods
-
-      - type: git
-        url: https://github.com/golang/geo.git
-        # v0.0.0-20210211234256-740aa86cb551
-        commit: 740aa86cb551
-        dest: vendor/github.com/golang/geo
 
       - type: git
         url: https://github.com/golang/protobuf.git
@@ -144,12 +143,13 @@ modules:
 
       - type: git
         url: https://github.com/golang/snappy.git
-        tag: v0.0.1
+        tag: v0.0.4
         dest: vendor/github.com/golang/snappy
 
       - type: git
         url: https://github.com/gotk3/gotk3.git
-        tag: v0.6.2
+        # v0.6.5-0.20240618185848-ff349ae13f56
+        commit: ff349ae13f56
         dest: vendor/github.com/gotk3/gotk3
 
       - type: git
@@ -170,10 +170,10 @@ modules:
 
       - type: git
         url: https://github.com/etcd-io/bbolt.git
-        tag: v1.3.7
+        tag: v1.4.3
         dest: vendor/go.etcd.io/bbolt
 
       - type: git
         url: https://go.googlesource.com/sys.git
-        tag: v0.5.0
+        tag: v0.29.0
         dest: vendor/golang.org/x/sys
